@@ -179,9 +179,9 @@ export default function DashboardPage() {
     if (userRank >= 4) {
       return [
         { title: "Processar Folha", href: "/folha", icon: Calculator, color: "bg-blue-500" },
-        { title: "Relatório Geral", href: "/relatorios/geral", icon: BarChart3, color: "bg-green-500" },
-        { title: "Backup Sistema", href: "/configuracoes/backup", icon: Database, color: "bg-purple-500" },
-        { title: "Usuários", href: "/configuracoes/usuarios", icon: Users, color: "bg-orange-500" },
+        { title: "Relatório Geral", href: "/relatorios", icon: BarChart3, color: "bg-green-500" },
+        { title: "Backup Sistema", href: "/configuracoes", icon: Database, color: "bg-purple-500" },
+        { title: "Usuários", href: "/funcionarios", icon: Users, color: "bg-orange-500" },
       ]
     } else if (userRank >= 3) {
       return [
